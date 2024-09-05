@@ -1,0 +1,46 @@
+# Income and Expenditure Tracker
+
+This Python program helps track income and expenditure, calculate the balance, and display transaction history. It is simple and uses basic Python concepts such as loops, conditionals, functions, and string manipulation.
+
+## How the Program Works
+
+1. **Add a Transaction**: Allows the user to add an income or expenditure.
+2. **Display Transactions**: Shows all transactions that have been added.
+3. **Calculate Balance**: Displays the current balance after all transactions.
+4. **Generate Report**: Displays all transactions and the final balance.
+5. **Exit**: Exits the program.
+
+---
+
+## Functions Overview
+
+### 1. `main()` Function:
+- The program runs in a loop until the user selects exit.
+- It displays the menu options for adding transactions, viewing transactions, calculating the balance, generating a report, and exiting.
+
+### 2. `add_transaction()` Function:
+- Adds an income or expenditure to the transaction list.
+- The balance is updated based on the type of transaction (income increases, expenditure decreases).
+
+### 3. `display_transactions()` Function:
+- Displays all transactions stored in the `transactions` list.
+
+### 4. `generate_report()` Function:
+- Displays all transactions and the final balance.
+
+---
+
+## How to Use the Program
+
+1. **Run the Python Program**: Open the file in a Python environment and run it.
+2. **Follow the Menu**:
+   - Select options 1-5 to add transactions, view them, calculate the balance, generate a report, or exit the program.
+
+---
+
+## Example Workflow:
+
+1. **Add income**: The balance increases.
+2. **Add expenditure**: The balance decreases.
+3. **View transactions**: Displays all the income and expenditure details.
+4. **Generate report**: Shows a summary of all transactions and the final balance.
